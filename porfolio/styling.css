@@ -1,0 +1,76 @@
+body{
+    position: relative;
+}
+
+video#bgvideo{
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -100;
+}
+.container{
+    max-width: 1000px;
+}
+.navbar{
+    font-size: 18px;
+    background-color: #1b3759
+}
+
+#home{
+    background-color: transparent;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 15%;
+}
+
+#home h1{
+    margin-bottom: 30px
+}
+#home h2{
+    margin-bottom: 50px
+}
+
+#home .btn{
+    background-color: burlywood;
+    color: white;
+    font-size: 20px;
+    padding: 8px 20px;
+    border-radius: 8px
+}
+
+#home .btn:hover{
+    background-color: white;
+    color: black;
+}
+
+#about{
+    color: white;
+    text-align: center;
+    padding-top: 100px;   
+}
+#about h2{
+    font-weight: bold;
+}
+
+#about p{
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.aboutIm{
+    height: 100px;
+    width: 100px
+}
+#promise{
+    height: 800px;
+    width: 60%;
+    left: auto;
+    right: auto;
+    padding-top: 100px;
+}
+
+
+#chara{
+    height: 600px;
+    width: 250px;
+}
