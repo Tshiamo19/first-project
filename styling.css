@@ -61,6 +61,19 @@ video#bgvideo{
     height: 100px;
     width: 100px
 }
+
+#chara{
+    height: 400px;
+    width: 400px;
+}
+
+@media(max-width:768px){
+    #chara{
+        height: 300px;  
+    }
+}
+
+
 #promise{
   margin: auto;
   width: 50%;
@@ -68,8 +81,13 @@ video#bgvideo{
   padding: 10px;
 }
 
+#footim{
+    height:50px;
+    padding-right: 20px; 
+    margin-bottom: 20px;
+}
 
-#chara{
-    height: 600px;
-    width: 250px;
+.trial{
+    margin: 50px;
+    border: solid 2px; 
 }
