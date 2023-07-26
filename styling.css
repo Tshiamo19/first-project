@@ -62,11 +62,10 @@ video#bgvideo{
     width: 100px
 }
 #promise{
-    height: 800px;
-    width: 60%;
-    left: auto;
-    right: auto;
-    padding-top: 100px;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
 }
 
 
